@@ -47,7 +47,7 @@ class BinanceMonitor extends Command
             // Monitor
             $this->monitor();
 
-            // Wait for 5 seconds
+            // Wait for 5 seconds before continuing
             usleep(5000);
         }
     }
